@@ -1,12 +1,7 @@
 #!/bin/bash
 
-# Install i3
-
-sudo apt-get update
-sudo apt install i3
-
 # List of packages to install
-packages=("")
+packages=("i3")
 
 # Function to check if a command is available
 command_exists() {
