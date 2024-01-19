@@ -1,15 +1,17 @@
 #!/bin/bash
 
+# Install i3
+
+sudo apt-get update
+sudo apt install i3
+
 # List of packages to install
-packages=("i3lock-color" "imagemagick" "scrot")
+packages=("")
 
 # Function to check if a command is available
 command_exists() {
   command -v "$1" >/dev/null 2>&1
 }
-
-# Update package list
-sudo apt-get update
 
 # Install packages
 for package in "${packages[@]}"; do
@@ -25,4 +27,4 @@ done
 echo "Installation of packages is complete."
 
 # Chmod all files in custom_commands folder to chmod +x
-chmod +x ~/.config/i3/custom_commands/*
+chmod +x ~/.config/i3/custom_scripts/*

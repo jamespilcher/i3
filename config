@@ -13,7 +13,7 @@ set $mod Mod1
 set $win Mod4
 
 # set custom command path (ccp)
-set $ccp ~/.config/i3/custom_commands
+set $csp ~/.config/i3/custom_scripts
 
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -190,10 +190,10 @@ bindsym $mod+Ctrl+Shift+Right move workspace to output right
 bindsym $mod+Ctrl+Shift+Left  move workspace to output left
 
 # lock screen
-bindsym $win+l exec $ccp/lock.sh
+bindsym $win+l exec $csp/lock.sh
 
 # open chatgpt using application key
-bindsym Menu exec $ccp/open_chatgpt.sh
+bindsym Menu exec $csp/open_chatgpt.sh
 
 # volume control, assumes using pule
 bindsym KP_Subtract exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
@@ -201,6 +201,6 @@ bindsym KP_Add exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
 
 # spotify controls
 
-bindsym KP_Enter exec $ccp/spotify_control.sh toggle
-bindsym KP_Divide exec $ccp/spotify_control.sh previous
-bindsym KP_Multiply exec $ccp/spotify_control.sh next
+bindsym KP_Enter exec $csp/spotify_control.sh toggle
+bindsym KP_Divide exec $csp/spotify_control.sh previous
+bindsym KP_Multiply exec $csp/spotify_control.sh next
