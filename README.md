@@ -2,7 +2,7 @@
 
 ## Set up
 
-*If you have already installed i3, ***and don't care about your current config,*** remove it before proceeding `sudo rm -r ~/.config/i3
+*If you have already installed i3, ***and don't care about your current config***, remove it before proceeding `sudo rm -r ~/.config/i3
 `*
 
 
