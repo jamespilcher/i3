@@ -1,4 +1,4 @@
-# JP's i3 configs
+# JP's i3 config
 ## Preliminary Step
 
 *If you have already installed i3, ***and don't care about your current config***, remove the config before proceeding*
