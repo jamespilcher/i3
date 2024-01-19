@@ -9,6 +9,9 @@ command_exists() {
 }
 
 # Install packages
+
+sudo apt-get update
+
 for package in "${packages[@]}"; do
   if ! command_exists "$package"; then
     echo "Installing $package..."
