@@ -1,4 +1,4 @@
-# JP's i3 configs
+# JP's i3 config
 ## Preliminary Step
 
 *If you have already installed i3, ***and don't care about your current config***, remove the config before proceeding*
@@ -19,7 +19,7 @@ Enable executable permissions on the installer
 ```
 sudo chmod +x installer.sh
 ```
-Run the [installer](https://github.com/jamespilcher/i3/blob/main/installer.sh) which will install i3, any packages used by the custom scripts, and update permissions of said scripts.
+Run [the installer](https://github.com/jamespilcher/i3/blob/main/installer.sh) which will install i3, any packages used by the custom scripts, and update permissions of said scripts.
 
 ```
 ./installer.sh
