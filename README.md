@@ -19,7 +19,7 @@ Enable executable permissions on the installer
 ```
 sudo chmod +x installer.sh
 ```
-Run the installer, which will install i3, any packages used by the custom scripts, and update permissions of said scripts.
+Run the installer which will install i3, any packages used by the custom scripts, and update permissions of said scripts.
 
 ```
 ./installer.sh
